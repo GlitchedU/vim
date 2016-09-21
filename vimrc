@@ -39,8 +39,10 @@ set smartcase       " dont ignore case for searches with upper case letters
 set number  		" enable numbered lines
 set laststatus=2    " Always show statusline
 set colorcolumn=90  " Set highlighted column
+"set wrap            " enable line wrapping
+"set textwidth=90    " wrap at column 90
 
-" Tab settings
+"-----------------------------------  Tab Settings  ------------------------------------
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -66,6 +68,10 @@ nnoremap Y "+y
 
 " toggle relative line numbers
 nnoremap <leader>n :set relativenumber!<cr>
+
+" move vertically by display lines, not numbered lines
+nnoremap j gj
+nnoremap k gk
 
 
 "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
