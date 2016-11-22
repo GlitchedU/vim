@@ -31,6 +31,7 @@ set fileformat=unix
 "++++++++++++++++++++++++++++++++++++++  Basics  +++++++++++++++++++++++++++++++++++++++
 "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+set viminfo='100,n$HOME/.vim/files/info/viminfo'    " location of viminfo file
 set history=200		" keep 200 lines of command line history
 set showcmd			" display incomplete commands
 set wildmenu		" display completion matches in a status line
