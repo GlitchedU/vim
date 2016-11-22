@@ -39,8 +39,8 @@ set smartcase       " dont ignore case for searches with upper case letters
 set number  		" enable numbered lines
 set laststatus=2    " Always show statusline
 set colorcolumn=90  " Set highlighted column
-"set wrap            " enable line wrapping
-"set textwidth=90    " wrap at column 90
+set wrap            " enable line wrapping
+set textwidth=90    " wrap at column 90
 
 "-----------------------------------  Tab Settings  ------------------------------------
 set tabstop=4
