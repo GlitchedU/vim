@@ -43,7 +43,7 @@ set colorcolumn=90  " Set highlighted column
 set wrap            " enable line wrapping
 set textwidth=90    " wrap at column 90
 
-"-----------------------------------  Tab Settings  ------------------------------------
+"--------------------------------------  Tabbing  --------------------------------------
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -51,7 +51,13 @@ set autoindent
 set expandtab
 
 
-"--------------------------------------  Colors  ---------------------------------------
+"---------------------------------------  Cursor  --------------------------------------
+let &t_SI = "\<Esc>[6 q"
+let &t_SR = "\<Esc>[4 q"
+let &t_EI = "\<Esc>[2 q"
+
+
+"---------------------------------------  Colors  --------------------------------------
 highlight ColorColumn ctermbg=darkgrey
 
 highlight StatusLine ctermbg=15 ctermfg=8
