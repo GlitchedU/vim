@@ -99,7 +99,7 @@ endif
 
 "-------------------------------------- Super Tab --------------------------------------
 " Make SuperTab's tab completion start at the top and move down.
-let g:SuperTabDefaultCompletionType="<c-n>"
+"let g:SuperTabDefaultCompletionType="<c-n>"
 
 
 "-------------------------------------- Syntastic --------------------------------------
