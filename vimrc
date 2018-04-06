@@ -80,6 +80,9 @@ nnoremap <leader>n :set relativenumber!<cr>
 nnoremap j gj
 nnoremap k gk
 
+" allow saving of files as sudo when I forgot to start vim using sudo
+cmap w!! w !sudo tee > /dev/null %
+
 
 "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 "++++++++++++++++++++++++++++++++++++++  Functions  ++++++++++++++++++++++++++++++++++++

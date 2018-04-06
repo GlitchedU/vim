@@ -1,8 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/glitched'
 let g:netrw_dirhist_2='/home/glitched/Classes/GLOS'
 let g:netrw_dirhist_3='/home/glitched/.config/Screeps/scripts/screeps.com/default'
 let g:netrw_dirhist_4='/home/glitched'
 let g:netrw_dirhist_5='/home/glitched/dots/LemurOne'
 let g:netrw_dirhist_6='/home/glitched/.vim/bundle/supertab'
+let g:netrw_dirhist_7='/home/glitched/.config/i3'

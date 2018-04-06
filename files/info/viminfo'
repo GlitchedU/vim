@@ -11,18 +11,26 @@
 # hlsearch on (H) or off (h):
 ~H
 # Last Search Pattern:
-~MSle0~/search
+~MSle0~/python
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:wq
-|2,0,1510808726,,"wq"
-:w
-|2,0,1510808723,,"w"
 :q
-|2,0,1510808683,,"q"
+|2,0,1522998286,,"q"
+:q!
+|2,0,1522998273,,"q!"
+:w !sudo tee > /dev/null %
+|2,0,1522998265,,"w !sudo tee > /dev/null %"
+:.!
+|2,0,1522998233,,".!"
+:w
+|2,0,1522998217,,"w"
+:ww
+|2,0,1522998214,,"ww"
+:wq
+|2,0,1522998200,,"wq"
 :b1
 |2,0,1510648169,,"b1"
 :b!
@@ -39,8 +47,6 @@ $
 |2,0,1510647313,,"b l"
 :b
 |2,0,1510647308,,"b"
-:q!
-|2,0,1506323330,,"q!"
 :help tutor
 |2,0,1506240319,,"help tutor"
 :help
@@ -65,8 +71,24 @@ $
 |2,0,1482772577,,"ls"
 
 # Search String History (newest to oldest):
+??\a
+|2,1,1522997209,63,"\\a"
 ? @$
-|2,1,1510808565,,"@$"
+|2,1,1522997209,,"@$"
+?/python
+|2,1,1512626758,47,"python"
+?/google-chrome
+|2,1,1512626755,47,"google-chrome"
+?/google
+|2,1,1512626747,47,"google"
+?/FONT
+|2,1,1511417860,47,"FONT"
+?/font
+|2,1,1511417856,47,"font"
+?/hint
+|2,1,1511395389,47,"hint"
+?/qtengine
+|2,1,1511395385,47,"qtengine"
 ?/Log
 |2,1,1510648187,47,"Log"
 ?/.
@@ -113,8 +135,6 @@ $
 |2,1,1482782139,47,"get_configured_terminal.name"
 ?/get_cofigured
 |2,1,1482782127,47,"get_cofigured"
-?/FONT
-|2,1,1482777672,47,"FONT"
 ?/PRINT
 |2,1,1482777574,47,"PRINT"
 ?/text
@@ -131,261 +151,554 @@ $
 # Registers:
 "0	LINE	0
 	
-|3,0,0,1,1,0,1510808565,""
+|3,0,0,1,1,0,1522997213,""
 ""1	LINE	0
-	>> Nov 13, 2017 (2) _
-|3,1,1,1,1,0,1510808725,">> Nov 13, 2017 (2) _"
+	
+|3,1,1,1,1,0,1522997079,""
 "2	LINE	0
 	
-|3,0,2,1,1,0,1510730180,""
+|3,0,2,1,1,0,1522995057,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1510702859,""
+|3,0,3,1,1,0,1511395381,""
 "4	LINE	0
-	PS1='[\u@\h \W]\$ '
-|3,0,4,1,1,0,1510702858,"PS1='[\\u@\\h \\W]\\$ '"
+	
+	<HTML>
+	        <HEAD>
+	            <TITLE>System Information Report</TITLE>
+	            </HEAD>
+	
+	            <BODY>
+	            <H1>System Information Report</H1>
+	            </BODY>
+	</HTML>
+	
+	
+	<HTML>
+	        <HEAD>
+	            <TITLE>System Information Report For ArchLemur</TITLE>
+	            </HEAD>
+	
+	            <BODY>
+	            <H1>System Information Report For ArchLemur</H1>
+	            </BODY>
+	</HTML>
+	
+|3,0,4,1,22,0,1510901648,"","<HTML>","        <HEAD>","            <TITLE>System Information Report</TITLE>","            </HEAD>","","            <BODY>","            <H1>System Information Report</H1>","            </BODY>","</HTML>","","","<HTML>","        <HEAD>","            <TITLE>System Information Report For ArchLemur</TITLE>","            </HEAD>","","            <BODY>","            <H1>System Information Report For ArchLemur</H1>",>21
+|<"            </BODY>","</HTML>",""
 "5	LINE	0
-	# Variable definitions
-|3,0,5,1,1,0,1510702858,"# Variable definitions"
+	<HTML>
+	    <HEAD>
+	        <TITLE>Page Title</TITLE>
+	    </HEAD>
+	    <BODY>
+	        Page body.
+	    </BODY>
+	</HTML>
+	
+	<HTML>
+	        <HEAD>
+	            <TITLE>System Information Report</TITLE>
+	            </HEAD>
+	
+	            <BODY>
+	            <H1>System Information Report</H1>
+	            </BODY>
+	</HTML>
+	
+|3,0,5,1,19,0,1510900948,"<HTML>","    <HEAD>","        <TITLE>Page Title</TITLE>","    </HEAD>","    <BODY>","        Page body.","    </BODY>","</HTML>","","<HTML>","        <HEAD>","            <TITLE>System Information Report</TITLE>","            </HEAD>","","            <BODY>","            <H1>System Information Report</H1>","            </BODY>","</HTML>",""
 "6	LINE	0
 	
-|3,0,6,1,1,0,1510702852,""
+|3,0,6,1,1,0,1510900497,""
 "7	LINE	0
-	alias rac='cd ~; command clear'
-|3,0,7,1,1,0,1510695211,"alias rac='cd ~; command clear'"
+	
+|3,0,7,1,1,0,1510900311,""
 "8	LINE	0
-	alias rc='command clear'
-|3,0,8,1,1,0,1510695210,"alias rc='command clear'"
+	>> Nov 13, 2017 (2) _
+|3,0,8,1,1,0,1510808725,">> Nov 13, 2017 (2) _"
 "9	LINE	0
-	alias clear='clear'
-|3,0,9,1,1,0,1510695109,"alias clear='clear'"
+	
+|3,0,9,1,1,0,1510730180,""
 "-	CHAR	0
-	\
-|3,0,36,0,1,0,1510702898,"\\"
+	
+|3,0,36,0,1,0,1515912340,""
 
 # File marks:
-'0  2  0  ~/vimwiki/MainLog.wiki
-|4,48,2,0,1510808726,"~/vimwiki/MainLog.wiki"
-'1  111  0  ~/.vim/vimrc
-|4,49,111,0,1510808683,"~/.vim/vimrc"
-'2  13  0  ~/.vim/bundle/supertab
-|4,50,13,0,1510808568,"~/.vim/bundle/supertab"
-'3  1  0  ~/.vim/autoload/pathogen.vim
-|4,51,1,0,1510808531,"~/.vim/autoload/pathogen.vim"
-'4  102  0  ~/.vim/vimrc
-|4,52,102,0,1510808498,"~/.vim/vimrc"
-'5  102  0  ~/.vim/vimrc
-|4,53,102,0,1510808498,"~/.vim/vimrc"
-'6  1  0  ~/time.~
-|4,54,1,0,1510730190,"~/time.~"
-'7  27  29  ~/dots/LemurOne/.bashrc
-|4,55,27,29,1510702901,"~/dots/LemurOne/.bashrc"
-'8  27  29  ~/dots/LemurOne/.bashrc
-|4,56,27,29,1510702885,"~/dots/LemurOne/.bashrc"
-'9  34  0  ~/.bashrc
-|4,57,34,0,1510702861,"~/.bashrc"
+'0  1  0  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,48,1,0,1522998286,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+'1  9  0  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,49,9,0,1522998273,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+'2  9  0  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,50,9,0,1522998273,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+'3  85  0  ~/.vim/vimrc
+|4,51,85,0,1522998200,"~/.vim/vimrc"
+'4  9  74  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,52,9,74,1522997884,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+'5  9  74  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,53,9,74,1522997884,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+'6  8  0  ~/dots/LemurOne/Directory
+|4,54,8,0,1522997401,"~/dots/LemurOne/Directory"
+'7  298  0  ~/.config/i3/config
+|4,55,298,0,1522997399,"~/.config/i3/config"
+'8  54  0  ~/.bashrc
+|4,56,54,0,1522997183,"~/.bashrc"
+'9  1  0  ~/man.~
+|4,57,1,0,1522997081,"~/man.~"
 
 # Jumplist (newest first):
--'  2  0  ~/vimwiki/MainLog.wiki
-|4,39,2,0,1510808726,"~/vimwiki/MainLog.wiki"
--'  20  2  ~/vimwiki/index.wiki
-|4,39,20,2,1510808713,"~/vimwiki/index.wiki"
--'  1  0  ~/vimwiki/index.wiki
-|4,39,1,0,1510808712,"~/vimwiki/index.wiki"
--'  111  0  ~/.vim/vimrc
-|4,39,111,0,1510808683,"~/.vim/vimrc"
--'  111  0  ~/.vim/vimrc
-|4,39,111,0,1510808683,"~/.vim/vimrc"
+-'  1  0  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,39,1,0,1522998286,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+-'  9  0  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,39,9,0,1522998273,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+-'  9  0  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,39,9,0,1522998273,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+-'  1  0  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,39,1,0,1522998207,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+-'  85  0  ~/.vim/vimrc
+|4,39,85,0,1522998200,"~/.vim/vimrc"
+-'  85  0  ~/.vim/vimrc
+|4,39,85,0,1522998200,"~/.vim/vimrc"
+-'  85  0  ~/.vim/vimrc
+|4,39,85,0,1522998200,"~/.vim/vimrc"
+-'  85  0  ~/.vim/vimrc
+|4,39,85,0,1522998200,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1510808655,"~/.vim/vimrc"
+|4,39,1,0,1522998092,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1510808655,"~/.vim/vimrc"
--'  13  0  ~/.vim/bundle/supertab
-|4,39,13,0,1510808568,"~/.vim/bundle/supertab"
--'  13  0  ~/.vim/bundle/supertab
-|4,39,13,0,1510808568,"~/.vim/bundle/supertab"
--'  13  0  ~/.vim/bundle/supertab
-|4,39,13,0,1510808568,"~/.vim/bundle/supertab"
--'  13  0  ~/.vim/bundle/supertab
-|4,39,13,0,1510808568,"~/.vim/bundle/supertab"
--'  1  0  ~/.vim/autoload/pathogen.vim
-|4,39,1,0,1510808531,"~/.vim/autoload/pathogen.vim"
--'  1  0  ~/.vim/autoload/pathogen.vim
-|4,39,1,0,1510808531,"~/.vim/autoload/pathogen.vim"
--'  1  0  ~/.vim/autoload/pathogen.vim
-|4,39,1,0,1510808531,"~/.vim/autoload/pathogen.vim"
--'  1  0  ~/.vim/autoload/pathogen.vim
-|4,39,1,0,1510808531,"~/.vim/autoload/pathogen.vim"
--'  1  0  ~/.vim/autoload/pathogen.vim
-|4,39,1,0,1510808531,"~/.vim/autoload/pathogen.vim"
--'  1  0  ~/.vim/autoload/pathogen.vim
-|4,39,1,0,1510808531,"~/.vim/autoload/pathogen.vim"
--'  1  0  ~/.vim/autoload/pathogen.vim
-|4,39,1,0,1510808531,"~/.vim/autoload/pathogen.vim"
--'  1  0  ~/.vim/autoload/pathogen.vim
-|4,39,1,0,1510808531,"~/.vim/autoload/pathogen.vim"
--'  102  0  ~/.vim/vimrc
-|4,39,102,0,1510808498,"~/.vim/vimrc"
--'  102  0  ~/.vim/vimrc
-|4,39,102,0,1510808498,"~/.vim/vimrc"
--'  102  0  ~/.vim/vimrc
-|4,39,102,0,1510808498,"~/.vim/vimrc"
--'  102  0  ~/.vim/vimrc
-|4,39,102,0,1510808498,"~/.vim/vimrc"
--'  102  0  ~/.vim/vimrc
-|4,39,102,0,1510808498,"~/.vim/vimrc"
--'  102  0  ~/.vim/vimrc
-|4,39,102,0,1510808498,"~/.vim/vimrc"
--'  102  0  ~/.vim/vimrc
-|4,39,102,0,1510808498,"~/.vim/vimrc"
--'  102  0  ~/.vim/vimrc
-|4,39,102,0,1510808498,"~/.vim/vimrc"
--'  102  0  ~/.vim/vimrc
-|4,39,102,0,1510808498,"~/.vim/vimrc"
--'  102  0  ~/.vim/vimrc
-|4,39,102,0,1510808498,"~/.vim/vimrc"
--'  118  0  ~/.vim/vimrc
-|4,39,118,0,1510808494,"~/.vim/vimrc"
--'  118  0  ~/.vim/vimrc
-|4,39,118,0,1510808494,"~/.vim/vimrc"
--'  118  0  ~/.vim/vimrc
-|4,39,118,0,1510808494,"~/.vim/vimrc"
--'  118  0  ~/.vim/vimrc
-|4,39,118,0,1510808494,"~/.vim/vimrc"
--'  118  0  ~/.vim/vimrc
-|4,39,118,0,1510808494,"~/.vim/vimrc"
--'  118  0  ~/.vim/vimrc
-|4,39,118,0,1510808494,"~/.vim/vimrc"
--'  118  0  ~/.vim/vimrc
-|4,39,118,0,1510808494,"~/.vim/vimrc"
--'  118  0  ~/.vim/vimrc
-|4,39,118,0,1510808494,"~/.vim/vimrc"
--'  118  0  ~/.vim/vimrc
-|4,39,118,0,1510808494,"~/.vim/vimrc"
--'  118  0  ~/.vim/vimrc
-|4,39,118,0,1510808494,"~/.vim/vimrc"
+|4,39,1,0,1522998092,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1510808465,"~/.vim/vimrc"
+|4,39,1,0,1522998092,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
-|4,39,1,0,1510808465,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1510808465,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1510808465,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1510808465,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1510808465,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1510808465,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1510808465,"~/.vim/vimrc"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  1  0  ~/time.~
-|4,39,1,0,1510730190,"~/time.~"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
--'  27  29  ~/dots/LemurOne/.bashrc
-|4,39,27,29,1510702901,"~/dots/LemurOne/.bashrc"
+|4,39,1,0,1522998092,"~/.vim/vimrc"
+-'  9  74  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,39,9,74,1522997884,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+-'  9  74  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,39,9,74,1522997884,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+-'  1  0  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,39,1,0,1522997848,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+-'  1  0  /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+|4,39,1,0,1522997848,"/usr/share/libalpm/hooks/mine-packagelist-dropbox.hook"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  8  0  ~/dots/LemurOne/Directory
+|4,39,8,0,1522997401,"~/dots/LemurOne/Directory"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  298  0  ~/.config/i3/config
+|4,39,298,0,1522997399,"~/.config/i3/config"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  1  0  ~/dots/LemurOne/Directory
+|4,39,1,0,1522997194,"~/dots/LemurOne/Directory"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
+-'  54  0  ~/.bashrc
+|4,39,54,0,1522997183,"~/.bashrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/vimwiki/MainLog.wiki
-	*	1510808725	0
+> /usr/share/libalpm/hooks/mine-packagelist-dropbox.hook
+	*	1522998285	0
+	"	1	0
+	^	9	60
+	.	9	59
+	+	9	74
+	+	9	59
+
+> ~/.vim/vimrc
+	*	1522998195	0
+	"	85	0
+	^	84	34
+	.	84	33
+	+	105	0
+	+	84	33
+
+> ~/.config/i3/config
+	*	1522997381	0
+	"	298	0
+	.	250	60
+	+	250	60
+
+> ~/dots/LemurOne/Directory
+	*	1522997197	0
+	"	8	0
+	^	3	40
+	.	3	39
+	+	3	6
+	+	2	11
+	+	1	18
+	+	2	12
+	+	4	8
+	+	3	2
+	+	4	33
+	+	1	23
+	+	2	24
+	+	3	23
+	+	4	23
+	+	5	41
+	+	8	47
+	+	7	42
+	+	6	44
+	+	5	41
+	+	3	39
+
+> ~/.bashrc
+	*	1522997181	0
+	"	54	0
+	^	26	1
+	.	36	0
+	+	1058	0
+	+	1059	27
+	+	1060	0
+	+	1063	0
+	+	1038	0
+	+	1040	0
+	+	1032	13
+	+	27	18
+	+	26	0
+	+	26	1
+	+	36	0
+
+> ~/man.~
+	*	1522997080	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.bash_profile
+	*	1522996986	0
+	"	12	0
+
+> ~/crash.log
+	*	1522996933	0
+	"	1	0
+
+> ~/Scripts/lock.sh
+	*	1522996832	0
+	"	1	0
+
+> ~/onLoad.init-example
+	*	1522996678	0
+	"	1	0
+
+> ~/MainLog
+	*	1522996666	0
 	"	2	0
+	^	3	60
+	.	3	20
+	+	1	3
+	+	1	0
+	+	1	87
+	+	1	90
+	+	2	61
+	+	1	36
+	+	3	20
+
+> ~/Github/myinfo
+	*	1522996630	0
+	"	2	0
+
+> ~/a.out
+	*	1522996431	0
+	"	1	0
+
+> ~/dots/.git/COMMIT_EDITMSG
+	*	1522996155	0
+	"	3	26
+	^	3	27
+	.	3	26
+	+	1	64
+	+	3	26
+
+> ~/pacman.~
+	*	1522995309	0
+	"	87	4
+	.	1	0
+	+	1	0
+
+> ~/Downloads/CLA-44.xx-v25/raw/hi/ne
+	*	1522994561	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/dots/LemurOne/.i3blocks.conf
+	*	1515912340	0
+	"	29	5
+	^	53	9
+	.	29	5
+	+	21	7
+	+	29	6
+	+	37	5
+	+	45	5
+	+	53	5
+	+	21	7
+	+	29	6
+	+	37	6
+	+	45	6
+	+	53	5
+	+	45	5
+	+	37	5
+	+	29	5
+
+> ~/dots/LemurOne/i3/config
+	*	1512718592	0
+	"	230	19
+	.	230	19
+	+	230	19
+
+> ~/h
+	*	1512626763	0
+	"	13	92
+	^	18	0
+	.	17	32
+	+	17	32
+
+> /etc/pacman.conf
+	*	1512626600	0
+	"	1	0
+
+> ~/Coding/C++/inclass.cpp
+	*	1511908898	0
+	"	1	0
+
+> ~/Coding/C++/easynumrunner.cpp
+	*	1511908867	0
+	"	1	0
+
+> ~/Coding/C++/easyrunnumber.pp
+	*	1511908862	0
+	"	1	0
+
+> ~/Coding/C++/ctest.cpp
+	*	1511908820	0
+	"	1	0
+
+> ~/Coding/C++/atm.cpp
+	*	1511908775	0
+	"	33	25
+	^	33	27
+	.	33	25
+	+	33	25
+
+> ~/.dwarffortress/data/init/init.txt
+	*	1511417867	0
+	"	57	1
+	^	39	18
+	.	39	10
+	+	73	19
+	+	67	15
+	+	30	13
+	+	39	10
+
+> ~/qutebrowser.~
+	*	1511395398	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/bin/sysinfopage
+	*	1510901772	0
+	"	17	29
+	^	17	30
+	.	17	29
+	+	1	10
+	+	1	0
+	+	9	12
+	+	21	0
+	+	19	11
+	+	9	6
+	+	19	7
+	+	5	32
+	+	12	24
+	+	16	21
+	+	5	5
+	+	12	24
+	+	16	21
+	+	5	45
+	+	6	33
+	+	7	11
+	+	9	5
+	+	7	46
+	+	6	21
+	+	17	29
+
+> ~/playground/Reporter/ReportGenerator.html
+	*	1510901682	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/playground/Reporter/ReportGenerator
+	*	1510900351	0
+	"	8	6
+	^	8	7
+	.	8	6
+	+	4	0
+	+	3	4
+	+	4	11
+	+	8	6
+
+> ~/vimwiki/LemurOne.wiki
+	*	1510900125	0
+	"	1	0
+
+> ~/vimwiki/MainLog.wiki
+	*	1510900124	0
+	"	2	38
 	^	2	65
 	.	3	0
 	+	1	7
@@ -394,7 +707,7 @@ $
 	+	3	0
 
 > ~/vimwiki/index.wiki
-	*	1510808712	0
+	*	1510900123	0
 	"	20	2
 	^	20	11
 	.	20	0
@@ -406,12 +719,16 @@ $
 	+	21	0
 	+	20	0
 
-> ~/.vim/vimrc
-	*	1510808673	0
-	"	111	0
-	^	102	1
-	.	102	0
-	+	102	0
+> ~/LemurOne.wiki
+	*	1510900107	0
+	"	1	0
+	^	1	8
+	.	1	7
+	+	1	7
+
+> /etc/X11/xinit/xinitrc
+	*	1510813010	0
+	"	1	0
 
 > ~/.vim/autoload/pathogen.vim
 	*	1510808527	0
@@ -435,50 +752,9 @@ $
 	+	28	9
 	+	27	29
 
-> ~/.bashrc
-	*	1510702860	0
-	"	34	0
-	^	26	1
-	.	36	0
-	+	1058	0
-	+	1059	27
-	+	1060	0
-	+	1063	0
-	+	1038	0
-	+	1040	0
-	+	1032	13
-	+	27	18
-	+	26	0
-	+	26	1
-	+	36	0
-
-> ~/.bash_profile
-	*	1510694239	0
-	"	5	0
-
 > ~/vimwiki/VimWikiSyntax.wiki
 	*	1510648704	0
 	"	14	0
-
-> ~/MainLog
-	*	1510648368	0
-	"	3	20
-	^	3	60
-	.	3	20
-	+	1	3
-	+	1	0
-	+	1	87
-	+	1	90
-	+	2	61
-	+	1	36
-	+	3	20
-
-> ~/LemurOne.wiki
-	*	1510648165	0
-	"	1	7
-	^	1	8
-	.	1	7
-	+	1	7
 
 > ~/vimwiki/MyVim.wiki
 	*	1510648064	0
@@ -498,41 +774,11 @@ $
 	.	1	0
 	+	1	0
 
-> ~/dots/LemurOne/Directory
-	*	1510635272	0
-	"	2	35
-	^	3	40
-	.	3	39
-	+	3	6
-	+	2	11
-	+	1	18
-	+	2	12
-	+	4	8
-	+	3	2
-	+	4	33
-	+	1	23
-	+	2	24
-	+	3	23
-	+	4	23
-	+	5	41
-	+	8	47
-	+	7	42
-	+	6	44
-	+	5	41
-	+	3	39
-
 > ~/find.~
 	*	1510633742	0
 	"	2	0
 	.	1	0
 	+	1	0
-
-> ~/dots/.git/COMMIT_EDITMSG
-	*	1510633065	0
-	"	1	12
-	^	1	13
-	.	1	12
-	+	1	12
 
 > /usr/share/sil/lib/edit/ability.txt
 	*	1510469523	0
@@ -737,10 +983,6 @@ $
 	+	1	10
 	+	3	38
 
-> ~/dots/LemurOne/i3/config
-	*	1494138629	0
-	"	298	0
-
 > ~/run.log
 	*	1490584225	0
 	"	1	0
@@ -847,12 +1089,6 @@ $
 	+	59	61
 	+	60	59
 
-> ~/.config/i3/config
-	*	1483192629	0
-	"	298	0
-	.	250	60
-	+	250	60
-
 > ~/.dwarffortress-lnp-git/python-lnp/core/terminal.py
 	*	1482782220	0
 	"	27	45
@@ -863,16 +1099,6 @@ $
 > /opt/dwarffortress/data/init/init.txt
 	*	1482778587	0
 	"	25	0
-
-> ~/.dwarffortress/data/init/init.txt
-	*	1482778092	0
-	"	69	2
-	^	39	18
-	.	39	10
-	+	73	19
-	+	67	15
-	+	30	13
-	+	39	10
 
 > ~/bin/dfhack
 	*	1482772600	0
@@ -1055,33 +1281,3 @@ $
 	+	44	23
 	+	44	28
 	+	46	0
-
-> ~/vimwiki/1csci16.wiki
-	*	1482164803	0
-	"	1	0
-	^	6	0
-	.	6	0
-	+	2	28
-	+	3	0
-	+	4	13
-	+	5	0
-	+	2	12
-	+	3	0
-	+	4	14
-	+	5	0
-	+	4	5
-	+	5	25
-	+	6	0
-
-> ~/basky
-	*	1480581365	0
-	"	5	30
-	^	5	31
-	.	5	30
-	+	1	28
-	+	2	24
-	+	5	30
-
-> ~/vimwiki/PHYS1301W.wiki
-	*	1480370131	0
-	"	1	0
